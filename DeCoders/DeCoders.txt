@@ -1,0 +1,37 @@
+"https://drive.google.com/open?id=1AVKdUvJS8ns-mizLL7iyqBkOha8c7yDK" - Project Description/Presentation Video link (Please use headphones for better sound) 
+
+
+Respected Judges,
+
+1. Project Decription (Note: Please see the PPT for better description)
+
+We have implemented our idea in the product named ReVoice, the main idea is to free user from the manual reviewing (typing and giving manual points or stars) to the products or their experience, 
+So, the review from the user is taken in the form of speech and then that is fed into the NLP architecture by which we get prediction of the review which include reviewd text whether positive or negative and also the percentage by which that review is positive or negative about the product or experience and, also at the same time the expression of the  user giving review is captured using Computer Vision Architecture, which classify the expression as sad, angry, happy, neutral, surprised.
+
+
+
+2. Contents of this directory
+
+"code" folder contains all the files of the project for running locally.
+"Decoders.pptx" is the PPT with detailed project description.
+"https://drive.google.com/open?id=1AVKdUvJS8ns-mizLL7iyqBkOha8c7yDK" - Project Description/Presentation Video link (Please use headphones for better sound)
+
+
+
+3. How to run the code.
+
+A) Navigate inside the "code" directory.
+B) Create a virtual environment and activate it.
+C) Install all the dependencies from the requirements.txt file by running "pip install -r requirements.txt".
+D) Run "main.py" file which lights up the server. You may get an error of any "nltk" file missing. Download the file by running the command which would be mentioned in the terminal.
+
+
+E) This lights up Flask server on localhost (127.0.0.1:5000). Open this URL in the browser.
+F) Scroll down and tap on "SPEAK REVIEW" button.
+G) Speak the review in your michrophone and you get to see the results. (This is the first half of the final goal which we were able to deploy in 24h time duration.)
+
+---------Following is the Script which is the final goal------------------
+
+H) Run "final.py" (Which runs the Goal model on terminal.
+I) A window pops up which captures your facial expression while you speak your review.
+J) The processed results are displayed once the script terminates.
